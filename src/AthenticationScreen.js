@@ -18,7 +18,7 @@ export function AthenticationScreen({ navigation }) {
   const [codeCountry, setCodeCountry] = useState(defaultCodeCountry)
   const [placeholder, setPlaceholder] = useState(defaultMaskCountry)
   const onShowHideModal = () =>{
-    setModalVisible(!modalVisible)
+    setModalVisible(!modalVisible)   
   }
 
   const onChangePhone = (number) => {
